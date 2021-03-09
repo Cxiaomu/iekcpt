@@ -1,0 +1,18 @@
+[ 2019-08-31T20:12:05+08:00 ] ::1 /IEkcpt3.0plus/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006180s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-31T20:12:07+08:00 ] ::1 /IEkcpt3.0plus/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-31T20:12:07+08:00 ] ::1 /IEkcpt3.0plus/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+ERR: 无法加载模块:Public
+

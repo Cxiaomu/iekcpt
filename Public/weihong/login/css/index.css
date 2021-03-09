@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+
+body{font-family:'微软雅黑',Arial;}
+
+.step-body{
+	
+}
+
+.step-logo{
+	width: 100%;
+	margin: 0px auto;
+	overflow:hidden;
+	height:100px;
+	vertical-align: middle;
+}
+
+.step-logo-left{
+	width: 30%;
+	float: left;
+}
+
+.step-logo-left img{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: width;
+	
+}
+
+.step-logo-right{
+	width: 10%;
+	float: right;
+	margin-top: 30px;
+}
+
+.step-logo-right p{
+	font-size: 2em;
+	vertical-align: middle;
+
+}
+.step-logo-right a{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	margin-right: 50px;
+}
+
+.intro-flow{
+	margin-top: 50px;
+	
+}
+
+#msform {
+	width:80%;
+	padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width:80%;
+	margin: 0 10%;
+
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	width: 60%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+#msform label{
+	width: 10%;
+	float: left;
+	padding-top: 15px;
+	text-align: left;
+	margin-left: 13%;
+}
+
+
+.fs-title{
+	font-weight: normal;
+	font-family: montserrat;
+}
+
+.footer-btn1{
+	position: relative;
+	top: 500px;
+	text-align: center;
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.footer-btn{
+	position: relative;
+	top: 10px;
+	text-align: center;
+	clear: both;
+}
+.common-btn{
+	border: 1px solid #007F7F;
+	display: inline-block;
+}
+.common-btn a{
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	padding: 0 30px;
+	height: 33px;
+	line-height: 37px;
+	color: #ffffff;
+	border: 1px solid #7DDDDC;
+	background: url(../images/btn-bg.jpg);
+}
+.common-btn a:hover{
+	background: url(../images/btn-bg-active.jpg);
+}
+
+.apply-finish{
+	text-align: center;
+	font-family: 微软雅黑;
+}
+.apply-finish-header{
+	padding-top:50px;
+}
+.apply-finish-msg{
+	font-weight: bold;
+	font-size: 24px;
+	color: #009899;
+	margin-top: 30px;
+}
+
+.apply-finish-footer{
+	margin-top: 100px;
+}
+.apply-finish-footer p{
+	font-size: 16px;
+	font-weight: bold;
+	color: #4C4C4C;
+	letter-spacing:1px;
+	line-height: 45px;
+}
+.apply-finish-footer p span{
+	color: red;
+}
+.apply-finish-footer p a{
+	color: #009999;
+}

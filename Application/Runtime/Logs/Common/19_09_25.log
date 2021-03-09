@@ -1,0 +1,156 @@
+[ 2019-09-25T09:27:32+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:27:32+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:29:17+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:29:17+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:30:47+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:30:47+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:33:39+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:33:39+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:35:13+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:35:13+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:35:30+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:35:30+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:36:27+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002551s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:36:27+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:38:52+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:38:52+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:38:55+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:38:55+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:39:48+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:39:48+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:47:17+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T09:47:17+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T10:46:59+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T10:46:59+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/weihong/fonts/sourcesanspro/sourcesanspro-bold.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T11:00:08+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002577s ]
+ERR: 无法加载模块:Public
+
+[ 2019-09-25T11:00:08+08:00 ] ::1 /IEkcpt3.0/IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+ERR: 无法加载模块:Public
+

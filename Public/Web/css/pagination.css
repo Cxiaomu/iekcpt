@@ -1,0 +1,126 @@
+.pages {
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+.pages #Pagination,.pages #Pagination2 {
+  display: inline-block;
+}
+.pages #Pagination .pagination,.pages #Pagination2 .pagination {
+  height: 34px;
+  margin: 0px;
+}
+.pages #Pagination .pagination a,
+.pages #Pagination .pagination span,.pages #Pagination2 .pagination a,
+.pages #Pagination2 .pagination span {
+  float: left;
+  display: block;
+  width: 45px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0px 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  color: rgb( 102, 102, 102 );
+}
+.pages #Pagination .pagination a:hover,.pages #Pagination2 .pagination a:hover{
+    background: #f9f9f9;
+}
+.pages #Pagination .pagination a.current,.pages #Pagination .pagination a.current:hover,.pages #Pagination2 .pagination a.current,.pages #Pagination2 .pagination a.current:hover {
+  background: #2eafbb;
+  border: 1px solid #2eafbb;
+  color: #fff;
+}
+.pages #Pagination .pagination .prev,
+.pages #Pagination .pagination .next,
+.pages #Pagination2 .pagination .prev,
+.pages #Pagination2 .pagination .next {
+  float: left;
+  width: 80px;
+  text-align: center;
+  line-height: 34px; 
+  height: 34px;
+  color: rgb( 102, 102, 102 );
+}
+.pages #Pagination .pagination a.prev.current,
+.pages #Pagination .pagination a.next.current,
+.pages #Pagination .pagination a.current.prev:hover,
+.pages #Pagination .pagination a.current.next:hover,
+.pages #Pagination2 .pagination a.prev.current,
+.pages #Pagination2 .pagination a.next.current,
+.pages #Pagination2 .pagination a.current.prev:hover,
+.pages #Pagination2 .pagination a.current.next:hover{
+    border: 1px solid #aaa;
+    background: none;
+    opacity: 0.5;
+    cursor:  not-allowed;
+    color: rgb( 102, 102, 102 );
+}
+
+.pages #Pagination .pagination .pagination-break,.pages #Pagination2 .pagination .pagination-break {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  float: left;
+  display: block;
+  border: none;
+  margin: 0px 6px;
+  background: none;
+}
+.pages .searchPage {
+    display: inline-block;
+    height: 34px;
+    color: rgb( 102, 102, 102 );
+    position: relative;
+    top: -11px;
+}
+
+.pages .searchPage .page-go {
+    display: inline-block;
+  color: #999999;
+  font-size: 14px;
+  height: 34px;
+}
+.pages .searchPage .page-go input {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 0px 6px;
+  color: rgb( 102, 102, 102 );
+}
+.pages .searchPage .page-btn {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0px 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  text-align: center;
+  color:  rgb( 102, 102, 102 );
+}
+.pages .searchPage .my-page-btn {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0px 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #fff;
+  text-align: center;
+  color:  rgb( 102, 102, 102 );
+}
+

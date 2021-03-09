@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="C.H.L.Y团队" />
+    <title>
+      咨询导师
+    </title>
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="__ROOT__/Public/Web/js/html5.js" tppabs="Public/Web/js/html5.js">
+      </script>
+    <![endif]-->
+    <meta name="mobile-agent" content="format=html5;"
+    />
+    <script type="text/javascript">
+      if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))) {
+        location.replace("#");
+      }
+    </script>
+    <link href="__ROOT__/Public/Web/css/style.css" type="text/css" rel="stylesheet" />
+    <script src="__ROOT__/Public/Web/js/base.js" type="text/javascript">
+    </script>
+    <script src="__ROOT__/Public/Web/js/service.js"  type="text/javascript">
+    </script>
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="__ROOT__/Public/Web/js/respond.min.js" tppabs="Public/Web/js/respond.min.js">
+      </script>
+    <![endif]-->
+      <script>
+          //播放/暂停，采用同一个方法实现
+          function playPause(){
+              //获取视频DOM元素
+              var myVideo = document.getElementById("myVideo");
+              if (myVideo.paused)        //判断当前是否处于暂停状态
+                  myVideo.play();        //调用play()方法开发播放
+              else
+                  myVideo.pause();        //调用pause()方法暂停视频播放
+          }
+          //从中间开始播放
+          function playInMid(){
+              //获取视频DOM元素
+              var myVideo = document.getElementById("myVideo");
+              //得到视频的总时长
+              var duration = myVideo.duration;
+              //得到当前的进度
+              var currentTime = myVideo.currentTime;
+              //判断是否暂停中
+              if (!myVideo.paused)
+                  myVideo.pause();
+              //从总时长的一半的位置开始播放
+              myVideo.currentTime = duration / 2;
+              //继续播放视频
+              myVideo.play();}
+
+
+          function  playvideo() {
+              document.getElementById('playvideo').style.display='block';
+          }
+          function  stopplay() {
+
+              document.getElementById('playvideo').style.display='none';
+              myVideo.pause();
+          }
+      </script>
+  </head>
+  
+  <body>
+    <header class="header">
+      <div class="wrap">
+        <h1 class="fl">
+          <a href="{:U('indexafter/index')}" class="fl logo">
+            <img src="__ROOT__/Public/Web/images/banner/logo.png" width="154" height="49" />
+          </a>
+        </h1>
+        <div class="fl logo_text">
+          <img src="__ROOT__/Public/Web/images/banner/logo_text.jpg" alt="懂你所需，做你所想" width="163" height="49" />
+        </div>
+        <div class="fr">
+          <div class="top">
+            <span class="call">
+            </span>
+          </div>
+          <nav class="nav">
+              <ul class="fix">
+                  <li id="menu1">
+                      <a href="{:U('indexafter/index')}">
+                          官网首页
+                      </a>
+                  </li>
+                  <li id="menu2">
+                      <a href="{:U('Post/findpost')}">
+                          寻找岗位
+                      </a>
+                  </li>
+                  <li id="menu3">
+                      <a href="{:U('Cases/findcases')}">
+                          寻找项目
+                      </a>
+                  </li>
+                  <li id="menu4">
+                      <a href="{:U('Finance/index')}">
+                          寻找融资
+                      </a>
+                  </li>
+                  <li id="menu5">
+                      <a href="{:U('Student/index')}">
+                          寻找人才
+                      </a>
+                  </li>
+                  <li id="menu6">
+                      <a href="{:U('Teacher/index')}">
+                          咨询导师
+                      </a>
+                  </li>
+                  <li id="menu7">
+                      <a href="{:U('Personal/checksf')}" >
+                          个人中心
+                      </a>
+                      |
+                      <a href="{:U('Login/loginout')}" >
+                          退出
+                      </a>
+                  </li>
+              </ul>
+            <span class="nav_icon">
+            </span>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <script type="text/javascript">
+      document.getElementById("menu6").className = "on";
+    </script>
+    <!--banner-->
+    <div class="inside_banner_service">
+    </div>
+<div class="course-package-info-txt">
+      <em></em>
+      <p>理学，是中国大学教育中重要的一支学科，是指研究自然物质运动基本规律的科学。理学研究的内容广泛，本科专业通常有：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、材料物理、光学、化学、应用化学、材料化学、环境科学、天文学、地质学、地球化学、地理科学、资源环境与城乡规划管理、地理信息系统、地球物理学、大气科学、应用气象学、海洋科学、海洋技术、理论与应用力学、生态学、生物科学、生物技术、应用心理学等。</p>
+    </div>
+    <table class="course-package-info-list">
+      <thead>
+        <tr>
+          <th>课程名称</th>
+          <th>学校</th>
+          <th>教师</th>
+        </tr>
+      </thead>
+      <tbody>
+        <volist name="rows" id="vo">
+           <tr>
+          <td>{$vo.coursename}</td>
+          <td>{$vo.school}</td>
+          <td>{$vo.teachername}</td>
+        </tr>
+      </volist>
+      <!--   <tr>
+          <td>C君带你玩编程</td>
+          <td>昆明理工大学</td>
+          <td>方娇莉</td>
+        </tr>
+        <tr>
+          <td>工程图学</td>
+          <td>天津大学</td>
+          <td>姜杉</td>
+        </tr>
+          <tr>
+          <td>创新工程实践</td>
+          <td>北京大学</td>
+          <td>张海霞</td>
+        </tr>
+        <tr>
+          <td>3D打印技术与应用</td>
+          <td>西北工业大学</td>
+          <td>汪焰恩</td>
+        </tr>
+        <tr>
+          <td>电路分析基础</td>
+          <td>天津职业技术师范大学</td>
+          <td>刘芬</td>
+        </tr>
+        <tr>
+          <td>自动生产安装与调试</td>
+          <td>哈尔滨职业技术学院</td>
+          <td>杜丽萍</td>
+        </tr>
+        <tr>
+          <td>理论力学</td>
+          <td>西安交通大学</td>
+          <td>吴莹</td>
+        </tr>
+        <tr>
+          <td>建筑设计</td>
+          <td>华南理工大学</td>
+          <td>苏平</td>
+        </tr> -->
+      </tbody>
+    </table>
+    <div id="playvideo" style="text-align:center;  display: none; margin-top: 20px;">
+        <!-- HTML5新增的video标签，用于在网页里嵌入可以播放的视频 -->
+
+        <video width="320" height="240" controls="controls" id="myVideo">
+
+            <!-- 提供了两种格式的视频文件，以适应不同浏览器对video的支持 -->
+            <source src="__ROOT__/Public/Web/video/coursevideo3.mp4" type="video/mp4" />
+            <source src="__ROOT__/Public/Web/video/coursevideo3.ogg" type="video/ogg" />
+            对不起，您的浏览器暂不支持video视频标签!
+        </video>
+        <br/>
+        <input type="button" value="从头播放" onclick="playPause();"/>
+        <input type="button" value="从中间播放" onclick="playInMid();"/>
+        <input type="button" value="关闭播放" onclick="stopplay();"/>
+    </div>
+  <volist name="rows" id="vo">
+<div class="course-package-info-txt-a" style="height: 270px;">
+ <div class="course-info-lf fl">
+  <div class="course-info-lf-a">
+               <div class="course-info-pic">
+                 <img src="__ROOT__/Public/{$vo.courselogo}" onclick="playvideo()">
+                  <div class="courseName txtEllipsis fl" title="{$vo.coursename}" style="margin-bottom: 100px;">{$vo.coursename}</div>
+               </div>
+               <div class="teachInfo-box">
+                   <div class="teach-info">
+                    <span class="teacherNameInfo txtEllipsis-fl" title="{$vo.teachername}">{$vo.teachername}&nbsp;|</span>
+                    
+                    <span class="buildCourseSchool txtEllipsis-fl" title="{$vo.tel}">指导电话：{$vo.tel}</span>
+                    <br>
+                    <div class="zhidian">课程链接：{$vo.courselink}</div>
+                  
+                   </div>
+                   </div>
+               </div>
+             </div>
+<div class="course-info-rg fl">
+              <dl>
+                <dt>课程介绍</dt>
+                <dd>{$vo.courseintroduce}</dd>
+              </dl>
+              <!-- <dl class="course-target-wrap">
+                <dt>课程目标</dt>
+                <dd>
+                  <ul class="course-target-list">
+                    <li><span>揭示计算机智能化自动执行的本质</span></li>
+                    <li><span>培养学习者的计算思维能力</span></li>
+                    <li><span>激发学习者对程序设计的兴趣，享受编程的快乐</span></li>
+                  </ul>
+                </dd>
+              </dl> -->
+             </div>
+    </div>
+  </volist>
+  <!-- <div class="course-package-info-txt-a" style="height: 480px;">
+ <div class="course-info-lf fl">
+  <div class="course-info-lf-a">
+               <div class="course-info-pic">
+                 <img src="__ROOT__/Public/Web/images/dianlufenxi.jpg">
+                  <div class="courseName txtEllipsis fl" title="电路分析基础" style="margin-bottom: 300px;">电路分析基础</div>
+               </div>
+               <div class="teachInfo-box">
+                   <div class="teach-info">
+                    <span class="teacherNameInfo txtEllipsis-fl" title="刘芬">刘芬&nbsp;|</span>
+                    
+                    <span class="buildCourseSchool txtEllipsis-fl" title="天津职业技术师范大学">天津职业技术师范大学</span>
+                    <br>
+                    <div class="zhidian">咨询热线：17866619830</div>
+                  
+                   </div>
+                   </div>
+               </div>
+             </div>
+<div class="course-info-rg fl">
+              <dl>
+                <dt>老师介绍</dt>
+                <dd>副教授，2014年担任电子工程学院副院长，分管本科教学工作。2010年获得天津市青年教师教学基本功竞赛二等奖。主持教育部教改项目1项、天津市教学研究课题3项、校级教改项目两项。2015年指导学生参加全国大学生电子设计竞赛获得天津赛区二等奖，2016年指导学生参加天津市大学生电子设计竞赛获得一等奖。参与完成省部级以上科研项目4项，主持校级科技发展项目2项。在国内外重要学术期刊和国际学术会议上发表论文10余篇，其中核心以上论文5篇，授权专利1件。</dd>
+              </dl>
+              <dl class="course-target-wrap">
+                <dt>课程目标</dt>
+                <dd>
+                  <ul class="course-target-list">
+                    <li><span>使学生记忆电路中的一些基本概念，理解电路的基本理论，会运用基本的电路分析方法对电阻电路、动态电路、正弦稳态电路进行分析</span></li>
+                    <li><span>使学生具有分析计算能力、实验研究能力、总结归纳能力，增强辩证思维能力和抽象思维能力</span></li>
+                    <li><span>使学生养成严肃认真的科学作风，为后继课程的学习、从事理论研究和工程技术工作打下坚实基础</span></li>
+                  </ul>
+                </dd>
+              </dl>
+             </div>
+    </div> -->
+
+
+
+<!--  <div class="course-package-info-txt-a" style="height: 420px;">
+ <div class="course-info-lf fl">
+  <div class="course-info-lf-a">
+               <div class="course-info-pic">
+                 <img src="__ROOT__/Public/Web/images/zidonghua.jpg">
+                  <div class="courseName txtEllipsis fl" title="自动化生产安装与调试" style="margin-bottom: 250px;">自动化生产安装与调试</div>
+               </div>
+               <div class="teachInfo-box">
+                   <div class="teach-info">
+                    <span class="teacherNameInfo txtEllipsis-fl" title="杜丽萍">杜丽萍&nbsp;|</span>
+                    
+                    <span class="buildCourseSchool txtEllipsis-fl" title="哈尔滨职业技术学院">哈尔滨职业技术学院</span>
+                    <br>
+                    <div class="zhidian">咨询热线：13064016112</div>
+                  
+                   </div>
+                   </div>
+               </div>
+             </div>
+<div class="course-info-rg fl">
+              <dl>
+                <dt>老师介绍</dt>
+                <dd>教授，中华职教社第六届黄炎培杰出教师奖，黑龙江省第九届高等学校教学名师，黑龙江省第二届教学新秀奖。具有丰富的企业工作经历，双师型教师，市领军人才梯队后备带头人，校级优秀党务工作者。中国高等教育博览会教育信息化（高职）专家委员会委员；中国职业技术教育学会教学工作委员会工科类教学研究中心理事；中国教育发展战略学会人工智能与机器人教育专业委员会理事；中国电子教育学会第四届理事会理事；黑龙江省光电学会理事；黑龙江省科技合作发展促进会理事等。</dd>
+              </dl>
+              <dl class="course-target-wrap">
+                <dt>课程目标</dt>
+                <dd>
+                  <ul class="course-target-list">
+                    <li><span>培养学生的职业道德素养</span></li>
+                    <li><span>以自动化生产线实训考核装备为载体，培养学生掌握相关技术</span></li>
+                    <li><span>使学生具有生产线设备的安装、编程、调试、故障诊断和排除的能力</span></li>
+                  </ul>
+                </dd>
+              </dl>
+             </div>
+    </div> -->
+
+
+<!-- <div class="course-package-info-txt-a" style="height: 400px;">
+ <div class="course-info-lf fl">
+  <div class="course-info-lf-a">
+               <div class="course-info-pic">
+                 <img src="__ROOT__/Public/Web/images/lilunlixue.jpg">
+                  <div class="courseName txtEllipsis fl" title="理论力学" style="margin-bottom: 230px;">理论力学</div>
+               </div>
+               <div class="teachInfo-box">
+                   <div class="teach-info">
+                    <span class="teacherNameInfo txtEllipsis-fl" title="吴莹">吴莹&nbsp;|</span>
+                    
+                    <span class="buildCourseSchool txtEllipsis-fl" title="西安交通大学">西安交通大学</span>
+                    <br>
+                    <div class="zhidian">咨询热线：18753125945</div>
+                  
+                   </div>
+                   </div>
+               </div>
+             </div>
+<div class="course-info-rg fl">
+              <dl>
+                <dt>老师介绍</dt>
+                <dd>教授，博士生导师，现任副院长，力学国家级实验教学示范中心主任。在 “Scientific Reports”、“Nonlinear Dynamics”、“ Physical Review E”等学术期刊和学术会议上发表论文80余篇。曾获唐照千优秀博士毕业生奖、省部级自然科学三等奖1项、省高校科技进步一等奖1项、三等奖2项。曾获省教学成果特等奖2项、西安交通大学校级教学成果特等奖2项、全国优秀力学教师、全国微课竞赛优秀奖、陕西省微课竞赛二等奖等奖励。</dd>
+              </dl>
+              <dl class="course-target-wrap">
+                <dt>课程目标</dt>
+                <dd>
+                  <ul class="course-target-list">
+                    <li><span>掌握理论力学的基本概念、基本理论和基本方法</span></li>
+                    <li><span>具备利用基本力学原理对工程实际问题进行建模、分析和计算的能力</span></li>
+                    <li><span>强化学生工程意识及逻辑思维能力、抽象简化能力和初步的研究创新能力</span></li>
+                  </ul>
+                </dd>
+              </dl>
+             </div>
+    </div> -->
+
+<!-- <div class="course-package-info-txt-a" style="height: 510px;">
+ <div class="course-info-lf fl">
+  <div class="course-info-lf-a">
+               <div class="course-info-pic">
+                 <img src="__ROOT__/Public/Web/images/jianzhusheji.jpg">
+                  <div class="courseName txtEllipsis fl" title="建筑设计" style="margin-bottom: 340px;">建筑设计</div>
+               </div>
+               <div class="teachInfo-box">
+                   <div class="teach-info">
+                    <span class="teacherNameInfo txtEllipsis-fl" title="苏平">苏平&nbsp;|</span>
+                    
+                    <span class="buildCourseSchool txtEllipsis-fl" title="华南理工大学">华南理工大学</span>
+                    <br>
+                    <div class="zhidian">咨询热线：17652154365</div>
+                  
+                   </div>
+                   </div>
+               </div>
+             </div>
+<div class="course-info-rg fl">
+              <dl>
+                <dt>老师介绍</dt>
+                <dd>副教授，苏平，华南理工大学建筑学院，副教授，博士，院长助理、建筑系副主任；华南理工大学建筑设计研究院，一级注册建筑师，注册城市规划师，注册咨询工程师。</dd>
+              </dl>
+              <dl class="course-target-wrap">
+                <dt>课程目标</dt>
+                <dd>
+                  <ul class="course-target-list">
+                    <li><span>按照不同导师拟定的课题任务书，各自有所侧重地提升建筑设计能力和设计方法的训练。提升学生对建筑设计基本原理、科学技术知识和人文科学知识的掌握与理解</span></li>
+                    <li><span>通过设计项目前期的实地调研与文献研究，培养学生分析问题、发现问题、解决问题的基本能力，掌握扎实的调研分析技能。</span></li>
+                    <li><span>综合运用掌握的设计原理和多方面知识，在设计中体现创新意识并具备设计研究能力</span></li>
+                    <li><span>掌握基本的工程制图规则和方法，熟悉模型制作、渲染图绘制等分析和表现手段</span></li>
+                    <li><span>基于深刻专业自身评价的社会责任担当能力，和推进建筑文化与人居环境可持续发展的自觉</span></li>
+                    <li><span>通过合作设计与研讨活动，培养学生协同工作能力以及口头表达能力</span></li>
+                  </ul>
+                </dd>
+              </dl>
+             </div>
+    </div> -->
+
+<footer class="footer">
+      <div class="contact">
+        <div class="wrap">
+          <div class="home_about fl">
+            <dl>
+              <dt>
+                  <a href="index.html" >
+                    平台介绍
+                  </a>
+                </dt>
+                <dd>
+                  IE-科创平台是学生、导师、企业三方交互的桥梁，企业可以在个人中心发布岗位与项目，对学生发布的项目进行投资，查看学生简历，寻找所需领域的人才；导师可以在个人中心发布课程与项目，回答学生咨询的问题，对学生项目进行指导；学生可以发布项目，寻找融资，学习需要的课程，咨询导师，寻找适合的岗位，投递简历。
+                </dd>
+              </dl>
+            </div>
+            
+            <div class="home_about fl">
+              <dl>
+                <dt>
+                  <a href="index.html" >
+                    平台特色
+                  </a>
+                </dt>
+                <dd>
+                  作为双创潮流的主力，大学生们很乐于向投资人大谈自己的技术如何领先与独特，却很少涉及这些技术或产品究竟会有多大的市场空间，这些劣势是不可忽视的，
+导师、企业恰巧拥有这些。IE-科创平台既能满足企业对人才、有价值的项目的需求，也能让学生的创意得到释放、找到心仪的岗位等，还能让导师实现自我价值，共同创造无限的可能！
+                </dd>
+              </dl>
+            </div>
+                        <div class="home_contact fl">
+              <h2>
+                <a>
+                  联系我们
+                </a>
+              </h2>
+              <ul>
+                <li>
+                  Q Q：
+                  <a target="_blank" rel="nofollow" href="#">
+                    2691091258
+                  </a>
+                </li>
+                <li>
+                  邮 箱：
+                  <a target="_blank" rel="nofollow" href="mailto:2691091258@qq.com">
+                    2691091258@qq.com
+                  </a>
+                </li>
+                <li>
+                  电话：
+                  <a target="_blank" rel="nofollow" href="#">
+                    178-6061-8426
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="blogroll">
+          <div class="wrap">
+            友情链接：
+            <a href="https://www.ncss.cn/" target="_blank">
+              大学生就业网
+            </a>
+            &nbsp;
+            <a href="https://cy.ncss.cn/" target="_blank">
+              大学生创业服务网
+            </a>
+            &nbsp;
+            <a href="https://www.csdn.net/" target="_blank">
+              CSDN社区
+            </a>  
+            &nbsp;
+            <a href="https://www.imooc.com/" target="_blank">
+              慕课网
+            </a>
+            &nbsp;
+            <a href="https://www.runoob.com/" target="_blank">
+              菜鸟教程
+            </a>
+            &nbsp;
+            <a href="https://edu.51cto.com/" target="_blank">
+              51CTO学院
+            </a>
+            &nbsp;
+            <a href="https://www.jikexueyuan.com/" target="_blank">
+              极客学院
+            </a>
+            &nbsp;
+            <a href="https://ke.qq.com/" target="_blank">
+              腾讯课堂
+            </a>
+            &nbsp;
+            <a href="http://www.maiziedu.com/" target="_blank">
+              麦子学院
+            </a>
+            &nbsp;
+            <a href="https://study.163.com/" target="_blank">
+              网易云课堂
+            </a>
+            &nbsp;
+            <a href="http://www.xuetangx.com/" target="_blank">
+              学堂在线
+            </a>
+            &nbsp;
+            <a href="http://www.duobei.com/" target="_blank">
+              多贝网
+            </a>
+            &nbsp;       
+            <p class="copyright">
+            @2019-2021 版权所有  ICP备XXXXXXXX号 C.H.L.Y团队
+            </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
+    

@@ -1,0 +1,36 @@
+[ 2019-08-29T09:50:11+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/images/blur.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-29T09:50:11+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/images/s13.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-29T09:52:46+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-29T09:52:46+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-29T09:54:04+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005138s ]
+ERR: 无法加载模块:Public
+
+[ 2019-08-29T09:54:04+08:00 ] 127.0.0.1 /IEkcpt3.0/Public/Web/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Public
+

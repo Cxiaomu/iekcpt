@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.xqbt{
+    width:60%;
+    border: 1px solid #E4E4E4;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+       label{
+           text-align: left;
+           float: none;
+           font-size: 16px;
+           font-weight: 700;
+           color: #151519;
+           line-height: 40px;
+       }
+
+ .denglu_anniu{
+            border-radius:1em;
+            margin: 20px;
+            padding:10px;
+            background-color:#5E92F8;
+            color:#FFFFFF;
+            height:60px;
+            width: 200px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('Student/publish')}" method="post" enctype="multipart/form-data" >
+    <label>选择需求类型:</label><br>
+    <input class="xiangmutype" type="radio" name="protype" value="移动应用">移动应用
+    <input type="radio" name="protype" value="H5应用">H5应用
+    <input type="radio" name="protype" value="微信应用">微信应用
+    <input type="radio" name="protype" value="WEB应用">WEB应用
+    <input type="radio" name="protype" value="工具应用">工具应用
+    <input type="radio" name="protype" value="桌面应用">桌面应用
+    <input type="radio" name="protype" value="游戏开发">游戏开发
+    <input type="radio" name="protype" value="设计">设计
+    <input type="radio" name="protype" value="区块链">区块链
+    <input type="radio" name="protype" value="人工智能">人工智能
+    <input type="radio" name="protype" value="大数据">大数据
+    <input type="radio" name="protype" value="物联网">物联网
+    <input type="radio" name="protype" value="云计算">云计算
+    <input type="radio" name="protype" value="企业应用">企业应用
+
+
+    <div>
+        <label>项目名</label><br>
+        <input  class="xqbt"  type="text" name="proname" value="" placeholder="请输入项目名"><br>
+        <laber>需求描述：</laber><br>
+        <textarea style=" border:1px solid #6CABE7;width: 700px;height: 250px;" name="requires" placeholder="输入内容"></textarea><br>
+        <laber>请上传一张图片作为项目logo</laber><br>
+        <input type="file" name="prologo"><br>
+        <label>工期与预算</label><br>
+        <input style=" height:50px; width: 200px;" type="text" name="prodate" value="" placeholder="您期望多少天完成">
+        <select style="width:150px; height:45px;" size="1" name="procost" >
+            <option value="可议价">可议价</option>
+            <option  value="1000-5000">1000-5000</option>
+            <option value="5000-10000">5000-10000</option>
+            <option value="10000-50000">10000-50000</option>
+            <option value="50000-100000">50000-100000</option>
+            <option value="100000-500000">100000-500000</option>
+            <option value="500000以上">500000以上</option>
+        </select><br>
+        <label>联系方式</label><br>
+        <input style=" height:50px; width: 200px;"  type="text" name="propeoplename" value="" placeholder="请输入姓名">
+        <input style=" height:50px; width: 200px;"  type="text" name="prophone" value="" placeholder="请输入电话/手机"><br>
+            <input type="submit" class="denglu_anniu"  name="publish" value="发布" >
+
+
+    </div>
+</form>
+</body>
+</html>
